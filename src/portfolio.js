@@ -129,11 +129,30 @@ const workExperiences = {
 //   display: false           // hides Open Source section itself
 // };
 
-/* Big Projects */
 const bigProjects = {
   title: "Projects",
   subtitle: "REAL-WORLD AUTOMATION & FULL STACK PROJECTS",
   projects: [
+    {
+      projectName: "POS System (Laravel)",
+      projectDesc: "Point-of-Sale system built with Laravel for inventory, sales, and customer management.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/Sac-tharan/Pos-System-Laravel"
+        }
+      ]
+    },
+    {
+      projectName: "Eseat Booking Webscrapper",
+      projectDesc: "Python web scraping project for automating seat booking and data collection.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/Sac-tharan/Eseat-Booking-Webscrapper"
+        }
+      ]
+    },
     {
       projectName: "Automating Inventory Management",
       projectDesc: "Selenium + Python automation for inventory CRUD operations.",
@@ -167,6 +186,7 @@ const bigProjects = {
   ],
   display: true
 };
+
 
 /* Achievements / Certifications */
 const achievementSection = {
