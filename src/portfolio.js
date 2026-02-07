@@ -22,9 +22,11 @@ const greeting = {
   subTitle: emoji(
     "Software QA Automation Engineer 🚀 with 3+ years of experience in Selenium (Python & Java), API Testing, CI/CD, and hands-on Full Stack Development using Laravel, MySQL, React & Node.js."
   ),
-  resumeLink: "",
+  resumeLink:
+    "https://drive.google.com/file/d/1aEZY8EtZtj0m6mfq-lnFMC5BAo-Cantu/view?usp=drive_link",
   displayGreeting: true
 };
+
 
 /* Social Media Links */
 const socialMediaLinks = {
@@ -82,12 +84,15 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Automation Testing", progressPercentage: "90%" },
-    { Stack: "Backend Development", progressPercentage: "70%" },
-    { Stack: "Frontend Development", progressPercentage: "60%" }
+    { Stack: "QA Automation (Selenium & Playwright)", progressPercentage: "90%" },
+    { Stack: "Manual Testing", progressPercentage: "85%" },
+    { Stack: "Full Stack Development (Laravel + React)", progressPercentage: "75%" },
+    { Stack: "Python Development & Web Scraping", progressPercentage: "80%" },
+    { Stack: "API Testing & CI/CD Integration", progressPercentage: "80%" }
   ],
   displayCodersrank: false
 };
+
 
 /* Work Experience */
 const workExperiences = {
@@ -119,10 +124,10 @@ const workExperiences = {
 };
 
 /* Open Source (hidden, but keeps "View More Projects" button) */
-const openSource = {
-  showGithubProfile: true, // enables the "More Projects" button
-  display: false           // hides Open Source section itself
-};
+// const openSource = {
+//   showGithubProfile: true, // enables the "More Projects" button
+//   display: false           // hides Open Source section itself
+// };
 
 /* Big Projects */
 const bigProjects = {
@@ -230,7 +235,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource,
+  // openSource,
   bigProjects,
   achievementSection,
   blogSection,
