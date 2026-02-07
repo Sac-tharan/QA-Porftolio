@@ -14,6 +14,34 @@
 .subTitle {
   color: $subTitle;
 }
+.achievement-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; // centers content horizontally
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  &-image {
+    width: 100px; // small size
+    height: 100px; // keep aspect ratio, optional: auto
+    object-fit: contain; // maintain aspect ratio
+    margin-bottom: 20px;
+  }
+
+  &-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  &-description {
+    font-size: 16px;
+    color: $subTitle; // or another color variable
+  }
+}
 
 /* Media Query */
 @media (max-width: 1380px) {

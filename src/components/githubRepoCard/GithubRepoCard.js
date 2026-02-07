@@ -1,9 +1,10 @@
 import React from "react";
 import "./GithubRepoCard.scss";
-import {Fade} from "react-reveal";
-import {formatFileSizeDisplay} from "../../utils";
+import { Fade } from "react-reveal";
+import Button from "../../components/button/Button"; // make sure Button is imported
+import { formatFileSizeDisplay } from "../../utils";
 
-export default function GithubRepoCard({repo, isDark}) {
+export default function GithubRepoCard({ repo, isDark }) {
   function openUrlInNewTab(url, name) {
     if (!url) {
       console.log(`URL in ${name} is undefined`);
@@ -40,11 +41,11 @@ export default function GithubRepoCard({repo, isDark}) {
           <p className="repo-description">{repo.node.description}</p>
           <div className="repo-stats">
             <div className="repo-left-stat">
-              {repo.node.primaryLanguage !== null && (
+              {repo.node.primaryLanguage && (
                 <span>
                   <div
                     className="language-color"
-                    style={{backgroundColor: repo.node.primaryLanguage.color}}
+                    style={{ backgroundColor: repo.node.primaryLanguage.color }}
                   ></div>
                   <p>{repo.node.primaryLanguage.name}</p>
                 </span>
@@ -87,6 +88,16 @@ export default function GithubRepoCard({repo, isDark}) {
             <div className="repo-right-stat">
               <p>{formatFileSizeDisplay(repo.node.diskUsage)}</p>
             </div>
+          </div>
+
+          {/* ADD VIEW MORE BUTTON AT THE BOTTOM */}
+          <div className="view-more-button-div">
+            <Button
+              text="View More Projects"
+              href="https://github.com/Sac-tharan?tab=repositories"
+              newTab={true}
+              className="project-button"
+            />
           </div>
         </div>
       </div>
