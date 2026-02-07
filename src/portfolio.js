@@ -123,12 +123,6 @@ const workExperiences = {
   ]
 };
 
-/* Open Source (hidden, but keeps "View More Projects" button) */
-// const openSource = {
-//   showGithubProfile: true, // enables the "More Projects" button
-//   display: false           // hides Open Source section itself
-// };
-
 const bigProjects = {
   title: "Projects",
   subtitle: "REAL-WORLD AUTOMATION & FULL STACK PROJECTS",
@@ -188,6 +182,14 @@ const bigProjects = {
 };
 
 
+/* Open Source (hidden, but keeps "View More Projects" button) */
+// const openSource = {
+//   showGithubProfile: true, // enables the "More Projects" button
+//   display: false           // hides Open Source section itself
+// };
+
+
+
 /* Achievements / Certifications */
 const achievementSection = {
   title: emoji("Certifications & Highlights 🏆"),
@@ -213,10 +215,18 @@ const achievementSection = {
       image: require("./assets/images/playwright.png"),
       imageAlt: "Playwright Automation",
       footerLink: []
+    },
+    {
+      title: "Laravel Framework for Beginners",
+      subtitle: "Alison – Certificate of Completion",
+      image: require("./assets/images/laravel.png"), // Add a Laravel logo in assets/images
+      imageAlt: "Laravel Framework",
+      footerLink: []
     }
   ],
   display: true
 };
+
 
 /* Disabled Sections */
 const blogSection = { display: false };
@@ -233,7 +243,7 @@ const resumeSection = {
 /* Contact */
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Let’s build reliable software together.",
+  subtitle: "Open to exciting opportunities in QA Automation, Full Stack Development, and Software Engineering.",
   number: "+94 77 872 0065",
   email_address: "sasi.sasitharan12@gmail.com"
 };
@@ -255,8 +265,8 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  // openSource,
   bigProjects,
+  // openSource,
   achievementSection,
   blogSection,
   talkSection,

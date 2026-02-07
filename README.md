@@ -1,4 +1,5 @@
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+# Software QA Laravel Developer Folio ⚡️github: "https://github.com/Sac-tharan",
+
 
 ## A clean, beautiful and responsive portfolio template for Developers!
 
@@ -37,11 +38,7 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Open Source Projects Connected with GitHub\
 ✔️ Big Projects\
 ✔️ Achievements And Certifications 🏆\
-✔️ Blogs\
-✔️ Talks\
-✔️ Podcast\
 ✔️ Contact me\
-✔️ Twitter Timeline\
 ✔️ GitHub Profile
 
 To view a live example, **[click here](https://developerfolio.js.org/)**.
@@ -72,7 +69,7 @@ From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-git clone https://github.com/saadpasta/developerFolio.git
+git clone https://github.com/Sac-tharan/QA-Porftolio.git
 
 # Go into the repository
 cd developerFolio
@@ -131,20 +128,7 @@ If you are seeing something as shown below, follow these [instructions](https://
 
 If the above solution still doesn't work, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
 
-## Linking blogs section to Medium
 
-Optionally, you can link the blogs section to your medium user account:
-
-* Inside the .env file, add key `MEDIUM_USERNAME` and assign your Medium username
-
-```env
-// .env
-MEDIUM_USERNAME = "YOUR MEDIUM USERNAME"
-```
-
-* For Github Action, change the environment variable `MEDIUM_USERNAME` in `.github/workflows/deploy.yml`
-
-Set `displayMediumBlogs` to true or false in portofolio.js to display fetched Medium blogs, defaults to true.
 
 ## Change and customize every section according to your need.
 
@@ -162,11 +146,9 @@ const greeting = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/Sac-tharan",
+  linkedin: "https://linkedin.com/in/sasi-tharan",
+  gmail: "sasi.sasitharan12@gmail.com",
 };
 
 
@@ -182,11 +164,8 @@ const bigProjects = { .... }
 
 const achievementSection = { .... }
 
-const blogSection = { .... }
-
 const contactInfo = { .... }
 
-const twitterDetails = { ... }
 
 ```
 #### Resume upload
@@ -200,15 +179,7 @@ For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` functi
 
 You can choose a Lottie and download it in json format from sites like [this](https://lottiefiles.com/). In `src/assets/lottie`, replace the Lottie json file you want to alter with the same file name. If you want to change the Lottie options, go to `src/components/displayLottie/DisplayLottie.js` and change the `defaultOptions` object, you can refer [lottie-react docs](https://www.npmjs.com/package/lottie-react) for more info on the `defaultOptions` object.
 
-#### Adding Twitter Time line to your Page
-Insert your Twitter username in `portfolio.js` to show your recent activity on your page.
 
-```javascript
-const twitterDetails = {
-  userName : "Your Twitter Username"
-};
-```
-Note: Don't use `@` symbol when adding username.
 
 ## Deployment
 When you are done with the setup, you should host your website online.
