@@ -20,7 +20,8 @@
   overflow: hidden;
 }
 .skill {
-  line-height: 3.5vw;
+  margin-bottom: 16px; // 👈 real spacing
+
 }
 .skill-bars {
   font-size: 28px;
@@ -94,5 +95,8 @@
 
   .meter {
     height: 14px;
+  }
+   .skill {
+    margin-bottom: 20px;
   }
 }
