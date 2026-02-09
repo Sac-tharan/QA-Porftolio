@@ -16,6 +16,20 @@
 .greeting-main {
   display: flex;
 }
+.greeting-small-image {
+  margin: 20px 0;
+  text-align: center;
+
+  img {
+    width: 150px;         // Adjust size
+    height: 150px;
+    border-radius: 50%;   // Circular image
+    object-fit: cover;
+    border: 3px solid $buttonColor;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+}
+
 
 .subTitle {
   color: $subTitle !important;
@@ -99,9 +113,15 @@
     font-size: 20px;
   }
 }
+
+
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
+  }
+    .greeting-small-image img {
+    width: 100px;
+    height: 100px;
   }
   .greeting-text {
     font-size: 30px;

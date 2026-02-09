@@ -42,6 +42,24 @@
   max-width: 90%;
   height: auto;
 }
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.skill-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  max-width: 85%;
+  word-wrap: break-word;
+}
+
+.skill-percentage {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
 
 /* Media Query */
 
@@ -58,13 +76,23 @@
 @media (max-width: 768px) {
   .skills-container {
     flex-direction: column;
+    width: 95%;
   }
+
   .skills-bar {
-    line-height: 3rem;
-    margin: 20px;
+    margin: 10px 0;
   }
-  .skills-image {
-    display: none;
-    order: 2;
+
+  .skill-name {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .skill-percentage {
+    font-size: 0.9rem;
+  }
+
+  .meter {
+    height: 14px;
   }
 }

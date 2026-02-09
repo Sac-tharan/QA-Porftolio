@@ -6,7 +6,7 @@ import {socialMediaLinks} from "../../portfolio";
 export default function Projects() {
   return (
     <div className="main" id="projects">
-      <h1 className="project-title">View github Projects</h1>
+      <h1 className="project-title">View Github Projects</h1>
 
       <Button
         text={"View GitHub"}

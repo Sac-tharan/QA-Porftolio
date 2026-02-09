@@ -129,7 +129,9 @@ const bigProjects = {
   projects: [
     {
       projectName: "POS System (Laravel)",
-      projectDesc: "Point-of-Sale system built with Laravel for inventory, sales, and customer management.",
+      projectDesc:
+        "Point-of-Sale system built with Laravel for inventory, sales, and customer management.",
+      video: require("./assets/videos/inventory-demo.mp4"),
       footerLink: [
         {
           name: "GitHub",
@@ -139,7 +141,9 @@ const bigProjects = {
     },
     {
       projectName: "Eseat Booking Webscrapper",
-      projectDesc: "Python web scraping project for automating seat booking and data collection.",
+      projectDesc:
+        "Python web scraping project for automating seat booking and data collection.",
+      video: require("./assets/videos/eseat-demo.mp4"),
       footerLink: [
         {
           name: "GitHub",
@@ -149,7 +153,9 @@ const bigProjects = {
     },
     {
       projectName: "Automating Inventory Management",
-      projectDesc: "Selenium + Python automation for inventory CRUD operations.",
+      projectDesc:
+        "Selenium + Python automation for inventory CRUD operations.",
+      video: require("./assets/videos/inventory-demo.mp4"),
       footerLink: [
         {
           name: "GitHub",
@@ -159,7 +165,9 @@ const bigProjects = {
     },
     {
       projectName: "Dealzbay.lk (E-commerce Platform)",
-      projectDesc: "Laravel backend + Next.js frontend with REST APIs.",
+      projectDesc:
+        "Laravel backend + Next.js frontend with REST APIs.",
+       video: require("./assets/videos/inventory-demo.mp4"),
       footerLink: [
         {
           name: "GitHub",
@@ -169,7 +177,9 @@ const bigProjects = {
     },
     {
       projectName: "Livestock Management System CRM",
-      projectDesc: "Laravel & MySQL based CRM with AI health predictions.",
+      projectDesc:
+        "Laravel & MySQL based CRM with AI health predictions.",
+       video: require("./assets/videos/livestock.mp4"),
       footerLink: [
         {
           name: "Live Demo",
