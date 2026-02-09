@@ -1,9 +1,19 @@
 @import "../../_globalColor";
 
 .card-image {
-  max-width: 100%;
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
   height: auto;
-  width: 250px;
+  object-fit: contain;
+}
+.certificate-image-div {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card-title {
   color: $titleColor;
